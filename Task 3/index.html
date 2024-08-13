@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\div, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        :root{
+            --bg-color: #080808;
+            --second-bg-color: #131313;
+            --text-color: white;
+            --main-color: #00ffee;
+        }
+        body{
+            background-image: url(images/black-background-08-vecteezy.png);
+        }
+        .heading h1{
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 600;
+            text-shadow: 3px 3px 6px orange;
+            text-align: center;
+            margin-top: 150PX;
+            color: white;
+        }
+        .btn{
+            display: inline-block;
+            padding: 1rem 2.8rem;
+            background: var(--main-color);
+            border-radius: 10rem;
+            font-size: 1.6rem;
+            color: black;
+            border: 2px solid transparent;
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }   
+        .btn:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 25px var(--main-color);
+            background-color: var(--main-color);
+            color: magenta;
+        }
+        .btns{
+            display: flex;
+            align-items: center;
+            margin-left: 500px;
+            margin-top: 100px;
+            gap: 1.5rem;
+        }
+        .btns a:nth-of-type(2){
+            background-color: black;
+            color: var(--main-color);
+            border: 2px solid var(--main-color);
+            box-shadow:  0 0 25px transparent;
+        }
+        .btns a:nth-of-type(2):hover{
+            box-shadow: 0 0 25px var(--main-color);
+            background: var(--main-color);
+            color: magenta;
+        }
+        @media(max-width:991px){
+            .heading h1{
+                font-size: 25px;
+            }
+            .btns{
+                margin-left: 40px;
+            }
+            .btn{
+                padding: 1rem 2rem;
+                font-size: 1rem;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="container-fluid py-5">
+            <div class="heading">
+                <h1>Welcome To Tic-Tac-Toe</h1>
+            </div>
+
+            <div class="btns">
+                <a class="btn" href="multiplayer.html">MultiPlayers</a>
+                <a class="btn" href="computer.html">Computer</a>
+            </div>
+    
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
