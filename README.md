@@ -1,1 +1,1 @@
-# Skillcraft Technology Task 3
+# SkillCraft Technology Task 3
