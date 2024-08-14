@@ -33,7 +33,7 @@ This project is a web-based implementation of the tic-tac-toe game. The game can
 5. Click "Restart" to play again.
 
 ## **Demo**
-For a live demo of the game, visit: [Tic-Tac-Toe Game]()
+For a live demo of the game, visit: [Tic-Tac-Toe Game](https://iamshaikalbaz.github.io/SCT_WD_3/Task%203/)
 
 ## **Author**
 - **Name**: Shaik Albaz
